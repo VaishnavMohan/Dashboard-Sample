@@ -1,0 +1,54 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.info-risk-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.PatientInfo, .RiskFactors {
+  flex: 1; 
+  margin-right: 10px; 
+}
+
+.PatientInfo:last-child {
+  margin-right: 0; 
+}
+
+.RecentActivity, .MedicalRecords {
+  width: 100%; 
+}
+
+
+
+@media (max-width: 768px) {
+.main-content {
+flex-direction: column;
+}
+
+
+
+.info-risk-container {
+flex-direction: column;
+}
+
+.PatientInfo, .RiskFactors {
+margin-right: 0; 
+}
+
+
+}

@@ -1,0 +1,371 @@
+
+
+
+.patient-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  max-width: 100%;
+  margin-left: 10px;
+  margin-right: 0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+.patient-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.patient-identity {
+  display: flex;
+}
+
+.patient-avatar {
+  width: 60px;
+  height: 60px;
+  background-color: #eee;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.patient-details h2 {
+  margin: 0;
+}
+
+.patient-details p {
+  margin: 5px 0;
+  text-align: start;
+}
+
+.patient-health {
+  display: flex;
+  justify-content: space-between;
+}
+
+.patient-contact {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.patient-contact p {
+  margin-bottom: 5px;
+}
+
+.health-section {
+  text-align: center;
+  margin-right: 15px;
+}
+
+.health-section h4 {
+  margin: 0 0 10px 0;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.patient-screenings {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.patient-screenings h4 {
+  margin-bottom: 5px;
+}
+
+.patient-screenings ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.patient-screenings ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.patient-bottom-section {
+  display: flex;
+}
+
+.health-metrics {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  padding: 0px;
+}
+
+.metric {
+  text-align: center;
+  flex: 1;
+  margin: 0 5px;
+  background-color: white;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+h4 {
+  color: #000000;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+h3 {
+  color: #007ff4;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: start;
+}
+
+p {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.health-metrics {
+  display: flex;
+  gap: 10px;
+}
+
+.metric-box {
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  padding: 2px;
+  text-align: left;
+}
+
+.metric-box h4 {
+  background-color: #007bff; 
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  border-radius: 8px 8px 0 0;
+}
+
+.metric-box p {
+  background-color: #c1d4e0; 
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 4px;
+}
+.care-gaps-circle {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  border: 2px solid #000; 
+  display: inline-flex; 
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto; 
+  margin-left: 10px;
+}
+.edit-patient{
+  
+  display: flex;
+
+}
+.btn-edit{
+    margin: 5px;
+    background-color: rgb(240, 173, 50);
+  
+    margin-right: 1rem;
+    color: white;
+  
+    border: none;
+    padding: 8px 16px;
+    margin-right: 8px;
+    border-radius: 30px;
+    cursor: pointer;
+  
+  
+}
+.button {
+  background-color: #007bff;
+
+  margin-right: 1rem;
+  color: white;
+
+  border: none;
+  padding: 8px 16px;
+  margin-right: 8px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+
+.health-metrics::after {
+  content: "";
+  width: 10px;
+  display: block;
+}
+
+.metric-detail {
+  background-color: #c1d4e0;
+  margin: 2px 0;
+  padding: 5px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.patient-metrics-section {
+  display: flex;
+  justify-content: left; 
+  gap: 8px; 
+}
+
+.patient-top-section {
+  display: flex;
+  justify-content:flex-start;
+  margin-bottom: 20px;
+}
+
+.patient-contact-screenings {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.patient-screenings {
+  text-align: left;
+  /* margin-top: 20px; */
+  margin-left: 30px;
+  border: 1px solid #ccc;
+
+}
+
+.patient-screenings h4 {
+  margin-bottom: 10px;
+}
+
+.patient-screenings ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.patient-screenings ul li {
+  /* display: inline; */
+  margin-right: 10px;
+
+}
+
+
+
+.patient-contact {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.health-metrics {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.screenings-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 1px; 
+}
+
+.screening-item {
+  display: flex;
+  align-items: center;
+}
+
+.bullet {
+  color: #808080; 
+  font-size: 20px; 
+  margin-right: 5px; 
+}
+
+
+.screenings-list{
+  border: 1px solid grey;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .patient-bottom-section {
+    flex-direction: column;
+  }
+  .health-metrics,
+  .patient-contact-screenings {
+    width: 100%;
+  }
+
+  .patient-contact-and-screenings {
+    align-items: center;
+  }
+
+  .patient-screenings,
+  .patient-contact {
+    text-align: center;
+  }
+
+  .patient-screenings ul li {
+    display: block;
+    margin: 5px 0;
+  }
+}
+
+.screenings-container {
+  background-color: #fff; 
+  padding: 15px;
+  border: 1px solid grey;
+  border-radius: 8px; 
+}
+
+.screenings-container h5 {
+ padding: 0px;
+ margin: 0px;
+  text-align: start;
+}
+
+.screenings-row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.screening-item {
+  display: flex;
+  align-items: center;
+  margin-right: 15px; 
+  font-size: 14px; 
+}
+
+.bullet-point {
+  color: #666; 
+  margin-right: 5px;
+}
+
+

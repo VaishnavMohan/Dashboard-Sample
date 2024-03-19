@@ -1,0 +1,66 @@
+.activity-card {
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 30px;
+    max-width: 300px; 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+    margin-left: 30px;
+    /* padding-left: 20px; */
+    
+  }
+  .activity-card2 {
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    max-width: 300px; 
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    /* padding-left: 10px; */
+  }
+  .activity-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 8px; 
+  }
+  
+  .icon-bell {
+    color: #FFA500; 
+    margin-right: 8px;
+  }
+  
+  .icon-plus {
+    color: #007BFF; 
+    margin-left: auto; 
+  }
+  
+  .activity-title {
+    font-size: 1rem; 
+    color: white; 
+    /* padding: 5px; */
+    margin-right: auto; 
+    background-color: #009FFB;
+    width: 100%;
+    text-align: start;
+  }
+  
+  .activity-text {
+    color: #555555; 
+    font-size: 0.875rem; 
+    margin: 0;
+    text-align: left;
+    padding: 10px;
+  }
+  
+ 
+  .faBell, .faPlus {
+    font-size: 1.25rem; 
+  }
+
+
+  
