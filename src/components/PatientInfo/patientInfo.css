@@ -61,7 +61,7 @@
   margin-right: 15px;
 }
 
-.health-section h4 {
+.health-section h6 {
   margin: 0 0 10px 0;
 }
 
@@ -82,7 +82,7 @@
   margin-top: 10px;
 }
 
-.patient-screenings h4 {
+.patient-screenings h6 {
   margin-bottom: 5px;
 }
 
@@ -129,7 +129,7 @@
   margin: 10px auto;
 }
 
-h4 {
+h6 {
   color: #000000;
   margin-bottom: 5px;
   margin-top: 0px;
@@ -159,7 +159,7 @@ p {
   text-align: left;
 }
 
-.metric-box h4 {
+.metric-box h6 {
   background-color: #007bff; 
   color: white;
   text-align: center;
@@ -203,6 +203,7 @@ p {
     margin-right: 8px;
     border-radius: 30px;
     cursor: pointer;
+    margin-top: 10px;
   
   
 }
@@ -217,6 +218,7 @@ p {
   margin-right: 8px;
   border-radius: 30px;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 
@@ -260,7 +262,7 @@ p {
 
 }
 
-.patient-screenings h4 {
+.patient-screenings h6 {
   margin-bottom: 10px;
 }
 

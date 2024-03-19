@@ -19,9 +19,9 @@ const PatientInfo = () => {
           <div className="patient-details">
             <div className="edit-patient">
               <h3>Pet3011 Par3011</h3>
-              <button className="btn-edit">edit</button>
+              {/* <button className="btn-edit">edit</button>
               <button>+ Chart</button>
-              <button>+ Enroll</button>
+              <button>+ Enroll</button> */}
             </div>
 
             <p>
@@ -60,26 +60,26 @@ const PatientInfo = () => {
 
       <div className="patient-metrics-section">
         <div className="metric-box">
-          <h4>Risk</h4>
+          <h6>Risk</h6>
           <p>This Year: N/A</p>
           <p>Last Year: N/A</p>
         </div>
         <div className="metric-box">
-          <h4>Care Gaps</h4>
+          <h6>Care Gaps</h6>
           <div className="care-gaps-circle">3</div>
         </div>
         <div className="metric-box">
-          <h4>ASCVD</h4>
+          <h6>ASCVD</h6>
           <p>Current Risk: 2.70</p>
           <p>Lowest Risk: 0.20</p>
         </div>
         <div className="metric-box">
-          <h4>SDOH</h4>
+          <h6>SDOH</h6>
           <p>This Year: 0.57</p>
           <p>Last Year: 0.60</p>
         </div>
         <div className="screenings-list">
-          <h4>Screenings</h4>
+          <h6>Screenings</h6>
           <div className="screenings-grid">
             {screenings.map((item, index) => (
               <div key={index} className="screening-item">
